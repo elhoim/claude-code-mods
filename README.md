@@ -37,14 +37,14 @@ Add the marketplace once, then install any mod by name:
 
 ```sh
 claude plugin marketplace add hamzafer/claude-code-mods
-claude plugin install context-bar@claude-code-mods
+claude plugin install context-bar@hamzafer-mods
 ```
 
 Or install the general-purpose set in one go:
 
 ```sh
 for m in context-bar token-weather usage-meter where-am-i next-steps agent-radar review-watch replay-theater md-preview blast-radius mission-control; do
-  claude plugin install "$m@claude-code-mods"
+  claude plugin install "$m@hamzafer-mods"
 done
 ```
 
